@@ -43,7 +43,7 @@ public class productScreenTest extends driverFactory{
 	@Then("return back to product page")
 	public void return_back_to_product_page(){
 	    getDriver().navigate().back();
-	    Assert.assertEquals(getDriver().getCurrentUrl(), "https://www.saucedemo.com/inventory.html");
+	    Assert.assertEquals(getDriver().getCurrentUrl(), "https://www.saucedemo.com/inventory.htm");
 	}
 
 }

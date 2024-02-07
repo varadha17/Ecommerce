@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features = "src/main/java/sauce/feature",
 		glue={"hooks","stepDef"},
-		tags="@menu",
+		tags="@smoke or @menu",
 		dryRun=false
 		
 		)
