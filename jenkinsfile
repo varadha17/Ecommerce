@@ -8,13 +8,7 @@ pipeline{
     stages{
     	stage('Build jar'){
     		steps{
-    		try{
-    		    sh "mvn clean test"
-    		}catch(error){
-    		    retry(3){
-    		       sh "mvn clean test" 
-    		    }
-    		}   			
+    		sh "mvn clean test"			
     	}
     }
  }
