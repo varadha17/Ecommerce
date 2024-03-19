@@ -1,7 +1,7 @@
 package stepDef;
 
-import org.junit.Assert;
 import org.openqa.selenium.WindowType;
+import org.testng.Assert;
 
 import Pages.AmazonPage;
 import Pages.FlipKartPage;
