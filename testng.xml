@@ -3,7 +3,7 @@
 <suite name = "test">
    <test name = "ecommerce">
       <packages>
-		  <package name="runner"></package>
+		  <package name="PageTest"></package>
 	  </packages>
    </test>
 </suite>
