@@ -4,9 +4,9 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = "src/main/java/sauce/feature",
+		features = "src/main/java/feature",
 		glue={"hooks","stepDef"},
-		tags="@smoke or @menu",
+		tags="@smoke",
 		dryRun=false
 		
 		)

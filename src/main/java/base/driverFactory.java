@@ -1,4 +1,4 @@
-package sauce.base;
+package base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -25,9 +25,13 @@ public class driverFactory {
 		}
 		
 		getDriver().manage().window().maximize();
-		getDriver().get("https://www.saucedemo.com/");
+
 		
 		return getDriver();
+	}
+	
+	public static void setURL(String url) {
+		getDriver().get(url);
 	}
 
 }
